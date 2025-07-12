@@ -1,0 +1,24 @@
+# Ignore raw sequencing data and large outputs
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.sam
+*.vcf
+*.vcf.gz
+*.tbi
+*.idx
+*.fai
+*.log
+*.metrics
+# Ignore temporary or backup files
+*~
+*.swp
+*.bak
+*.tmp
+
+# Ignore directories
+tools/
+Ref/
